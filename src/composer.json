@@ -1,0 +1,18 @@
+{
+    "name": "johnk/document-tracking",
+    "require-dev": {
+        "phpunit/phpunit": "^12"
+    },
+    "autoload": {
+        "psr-4": {
+            "Model\\": "model/",
+            "Config\\": "config/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Toneejake",
+            "email": "johnkervinevangelista@gmail.com"
+        }
+    ]
+}
