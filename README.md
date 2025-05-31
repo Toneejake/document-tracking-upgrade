@@ -65,7 +65,7 @@ A comprehensive document tracking system designed to streamline the process of d
    - Guest: [guest credentials]
 4. Follow the intuitive interface to manage documents based on your role
 ## Demo Video Link
-[Insert your demo video link here]
+Video wait
 
 ## Folder Structure
 - assets/ : Contains all static resources (CSS, JS, images, QR codes, uploaded documents)
