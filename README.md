@@ -1,16 +1,31 @@
-# Document Tracking System
+# WEB-BASED DOCUMENT TRACKING SYSTEM AND MANAGEMENT FOR NATIONAL IRRIGATION ADMINISTRATION REGIONAL OFFICE IV-A (CALABARZON) OF PILA, LAGUNA
 ## Project Description
 A comprehensive document tracking system designed to streamline the process of document management, tracking, and workflow across different departments and user roles. The system enables efficient document routing, status tracking via QR codes, and provides role-based access control.
 
 ## Features
-- Role-Based Access Control : Different interfaces and permissions for admin, record office, handler, and guest users
-- QR Code Integration : Generate and scan QR codes for quick document tracking and status updates
-- Document Workflow Management : Track documents as they move through different offices and handlers
-- Notification System : Real-time notifications for document transfers, receipts, and status changes
-- Idle Document Monitoring : Automated system to identify and report documents that haven't been processed within a specified timeframe
-- User Management : Add, edit, and archive user accounts with different role assignments
-- Conversation System : In-app messaging related to specific documents
-- Reporting : Generate reports on document status and workflow metrics
+
+- **Role-Based Access Control** : Different interfaces and permissions for admin, record office, handler, and guest users
+- **QR Code Integration** : Generate and scan QR codes for quick document tracking and status updates
+- **Document Workflow Management** : Track documents as they move through different offices and handlers
+- **Notification System** : Real-time notifications for document transfers, receipts, and status changes
+- **Idle Document Monitoring** : Automated system to identify and report documents that haven't been processed within a specified timeframe
+- **User Management** : Add, edit, and archive user accounts with different role assignments
+- **Conversation System** : In-app messaging related to specific documents
+- **Reporting** : Generate reports on document status and workflow metrics
+
+## Enhanced / New Features
+
+- **Modular Code Architecture** : Restructured code into reusable model classes 
+- **Secure Configuration Handling** : Centralized config management with dynamic base path and email settings
+- **Database Abstraction Layer** : Unified DB connection handling using `Config\Database`
+- **PSR-4 Autoloading** : Clean class loading via Composer
+- **PHPUnit Test Coverage** : Unit tests for core logic and database interactions
+- **GitHub Actions Automation** : Tests run automatically on every push
+- **Database Optimization Tools** : Archive old records and optimize tables for performance
+- **Idle Document Detection** : Automatically detect and notify about documents not updated in 7+ days
+- **Scheduled Maintenance Monitor** : Run optimization and checks via `monitor.php` (ideal for cron jobs)
+- **Guest Dashboard** : View current document status and progress from a dedicated interface
+
 ## Technologies Used
 - Backend : PHP
 - Database : MySQL
@@ -64,11 +79,15 @@ A comprehensive document tracking system designed to streamline the process of d
 - tests/ : PHPUnit test files
 - vendor/ : Composer dependencies
 - views/ : User interface files organized by user role
-## Contributors
-- [Your Name]
-- [Team Member 1]
-- [Team Member 2]
-## License
-[Specify your license here]
 
-Note: This README template is based on the current project structure and can be edited to include more specific details about your implementation.
+## Creators
+- De Leon, Melvin R.
+- Esmas, Dan Kenneth D.
+- Sotto, Jerwin A.
+
+## Upgrade Contributors
+- Evangelista, John Kervin D.
+- Marquez, Jethro
+- Ponce, John Paul
+- Santos, Gabriel Scott
+- Sotomayor, Rolan C.
