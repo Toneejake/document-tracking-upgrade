@@ -65,7 +65,8 @@ A comprehensive document tracking system designed to streamline the process of d
    - Guest: [guest credentials]
 4. Follow the intuitive interface to manage documents based on your role
 ## Demo Video Link
-Video wait
+
+[Demo Video](https://drive.google.com/file/d/1zN2t-6JoFvrbQN35jUo8qgS45Im46LtX/view?usp=drive_link)
 
 ## Folder Structure
 - assets/ : Contains all static resources (CSS, JS, images, QR codes, uploaded documents)
@@ -93,4 +94,4 @@ Video wait
 - Sotomayor, Rolan C.
 
 ## NOTE:
-Github automation won't work because of the required file srtuecture but can be easily modified by moving the test scripts and required files into the root.
+Github automation won't work because of the required file structure but can be easily modified by moving the test scripts and required files into the root.
