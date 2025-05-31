@@ -17,7 +17,11 @@ jobs:
           tools: composer:v2
 
       - name: Install dependencies
-        run: composer install --no-progress --no-suggest
+        run: |
+          cd $GITHUB_WORKSPACE
+          composer install --no-progress
 
       - name: Run PHPUnit tests
-        run: vendor/bin/phpunit
+        run: |
+          cd $GITHUB_WORKSPACE
+          vendor/bin/phpunit
