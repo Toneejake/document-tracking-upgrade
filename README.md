@@ -91,3 +91,6 @@ Video wait
 - Ponce, John Paul
 - Santos, Gabriel Scott
 - Sotomayor, Rolan C.
+
+## NOTE:
+Github automation won't work because of the required file srtuecture but can be easily modified by moving the test scripts and required files into the root.
